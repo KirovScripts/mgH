@@ -481,8 +481,8 @@ function KirovLib:MakeWindow(WindowConfig)
 	WindowConfig.IntroText = WindowConfig.IntroText or "Kirov LOL"
 	WindowConfig.CloseCallback = WindowConfig.CloseCallback or function() end
 	WindowConfig.ShowIcon = WindowConfig.ShowIcon or false
-	WindowConfig.Icon = WindowConfig.Icon or "rbxassetid://12624610340"
-	WindowConfig.IntroIcon = WindowConfig.IntroIcon or "rbxassetid://12624610340"
+	WindowConfig.Icon = WindowConfig.Icon or "rbxassetid://16259977214"
+	WindowConfig.IntroIcon = WindowConfig.IntroIcon or "rbxassetid://16259977214"
 	KirovLib.Folder = WindowConfig.ConfigFolder
 	KirovLib.SaveCfg = WindowConfig.SaveConfig
 
