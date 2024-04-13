@@ -31,7 +31,7 @@ local KirovLib = {
 local Icons = {}
 
 local Success, Response = pcall(function()
-	Icons = HttpService:JSONDecode(game:HttpGetAsync("https://raw.githubusercontent.com/evoincorp/lucideblox/master/src/modules/util/icons.json")).icons
+	Icons = HttpService:JSONDecode(game:HttpGetAsync("	")).icons
 end)
 
 if not Success then
@@ -481,8 +481,8 @@ function KirovLib:MakeWindow(WindowConfig)
 	WindowConfig.IntroText = WindowConfig.IntroText or "Kirov LOL"
 	WindowConfig.CloseCallback = WindowConfig.CloseCallback or function() end
 	WindowConfig.ShowIcon = WindowConfig.ShowIcon or false
-	WindowConfig.Icon = WindowConfig.Icon or "rbxassetid://16259977214"
-	WindowConfig.IntroIcon = WindowConfig.IntroIcon or "rbxassetid://16259977214"
+	WindowConfig.Icon = WindowConfig.Icon or "rbxassetid://3510181107"
+	WindowConfig.IntroIcon = WindowConfig.IntroIcon or "rbxassetid://3510181107"
 	KirovLib.Folder = WindowConfig.ConfigFolder
 	KirovLib.SaveCfg = WindowConfig.SaveConfig
 
