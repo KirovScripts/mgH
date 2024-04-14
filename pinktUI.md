@@ -15,9 +15,9 @@ local KirovLib = {
 	Themes = {
 		Default = {
 			Main = Color3.fromRGB(255, 255, 255),
-			Second = Color3.fromRGB(255, 225, 255),
-			Stroke = Color3.fromRGB(255, 220, 255),
-			Divider = Color3.fromRGB(255, 225, 255),
+			Second = Color3.fromRGB(255, 245, 255),
+			Stroke = Color3.fromRGB(255, 240, 255),
+			Divider = Color3.fromRGB(255, 245, 255),
 			Text = Color3.fromRGB(40, 40, 40),
 			TextDark = Color3.fromRGB(250, 250, 250),
 		}
