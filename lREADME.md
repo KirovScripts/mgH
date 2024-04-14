@@ -17,7 +17,7 @@ local KirovLib = {
 			Main = Color3.fromRGB(255, 255, 255),
 			Second = Color3.fromRGB(255, 165, 255),
 			Stroke = Color3.fromRGB(240, 240, 240),
-			Divider = Color3.fromRGB(240, 240, 240),
+			Divider = Color3.fromRGB(255, 165, 255),
 			Text = Color3.fromRGB(35, 35, 35),
 			TextDark = Color3.fromRGB(245, 245, 245)
 		}
