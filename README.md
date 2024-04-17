@@ -14,12 +14,12 @@ local KirovLib = {
 	Flags = {},
 	Themes = {
 		Default = {
-			Main = Color3.fromRGB(25, 25, 25),
-			Second = Color3.fromRGB(32, 32, 32),
-			Stroke = Color3.fromRGB(60, 60, 60),
-			Divider = Color3.fromRGB(60, 60, 60),
-			Text = Color3.fromRGB(240, 240, 240),
-			TextDark = Color3.fromRGB(150, 150, 150)
+			Main = Color3.fromRGB(6, 9, 8),
+			Second = Color3.fromRGB(6, 9, 8),
+			Stroke = Color3.fromRGB(11, 13, 1),
+			Divider = Color3.fromRGB(26, 26, 26),
+			Text = Color3.fromRGB(250, 250, 250),
+			TextDark = Color3.fromRGB(100, 100, 100)
 		}
 	},
 	SelectedTheme = "Default",
