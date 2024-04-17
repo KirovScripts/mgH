@@ -14,12 +14,12 @@ local KirovLib = {
 	Flags = {},
 	Themes = {
 		Default = {
-			Main = Color3.fromRGB(6, 9, 8),
-			Second = Color3.fromRGB(95, 5, 155),
-			Stroke = Color3.fromRGB(48, 48, 48),
-			Divider = Color3.fromRGB(26, 26, 26),
-			Text = Color3.fromRGB(235, 235, 235),
-			TextDark = Color3.fromRGB(100, 100, 100)
+			Main = Color3.fromRGB(25, 25, 25),
+			Second = Color3.fromRGB(32, 32, 32),
+			Stroke = Color3.fromRGB(60, 60, 60),
+			Divider = Color3.fromRGB(60, 60, 60),
+			Text = Color3.fromRGB(240, 240, 240),
+			TextDark = Color3.fromRGB(150, 150, 150)
 		}
 	},
 	SelectedTheme = "Default",
@@ -35,7 +35,7 @@ local Success, Response = pcall(function()
 end)
 
 if not Success then
-	warn("\nKirov LOL - Failed to load Feather Icons. Error code: " .. Response .. "\n")
+	warn("\nKirov Library - Failed to load Feather Icons. Error code: " .. Response .. "\n")
 end	
 
 local function GetIcon(IconName)
@@ -225,7 +225,7 @@ local function LoadCfg(Config)
 				end    
 			end)
 		else
-			warn("Kirov LOL Config Loader - Could not find ", a ,b)
+			warn("Kirov Library Config Loader - Could not find ", a ,b)
 		end
 	end)
 end
